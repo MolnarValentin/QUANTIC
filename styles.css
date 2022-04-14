@@ -1,0 +1,408 @@
+.td {
+  height: 7.5rem;
+  width: 7.5rem;
+  text-align: center;
+}
+
+#jatekos1,
+#jatekos2 {
+  margin-top: 0.5rem;
+}
+
+body {
+  padding: 1.5rem;
+  background-color: #9fb4ff;
+  margin: auto;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+.kezdokepernyo {
+  text-align: center;
+}
+
+p {
+  line-height: 1.5rem;
+  border: #000 5px solid;
+  background-color: white;
+  padding: 1rem;
+  margin-top: 0, 5rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.szabaly {
+  display: none;
+  border: black 5px;
+}
+
+.start,
+.vissza {
+  margin-top: 2rem;
+}
+
+.jatekszabaly {
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+button:hover {
+  background-color: #99ffcd;
+  box-shadow: 0px 15px 20px #95d1cc;
+  color: black;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+.allas {
+  background-color: #fff56d;
+  height: 15rem;
+  width: 25rem;
+  margin-bottom: 2.5rem;
+}
+
+.babuk1 {
+  background-color: #EEC4C4;
+  width: 32rem;
+  height: 10rem;
+  margin-top: 1rem;
+}
+
+.babuk2 {
+  background-color: #99ffcd;
+  width: 32rem;
+  height: 10rem;
+  margin-top: 1rem;
+}
+
+.kiiras1 {
+  height: 10rem;
+  writing-mode: vertical-rl;
+}
+
+.kiiras2 {
+  height: 10rem;
+  writing-mode: vertical-rl;
+}
+
+.vs1,.vs2 {
+    font-weight: bold;
+}
+
+.allas {
+    font-size: large;
+}
+
+.figura1,.figura2 {
+  height: 6rem;
+}
+.figura3 {
+  height: 6rem;
+}
+
+/*Alakzatok*/
+
+.pirosnegyzetkep {
+  width: 70px;
+  height: 70px;
+  background-color: #dc3545;
+}
+
+
+.pirosnegyzetkep:hover {
+  background-color: salmon;
+}
+
+
+.pirosnegyzetkivalaszt {
+  background-color: salmon;
+}
+
+.pirosnegyzetelfogyott{
+  background-color: #FFF8E5;
+}
+
+
+.pirosharomszogkep {
+  width: 0;
+	height: 0;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	border-bottom: 70px solid #dc3545;
+}
+
+.pirosharomszogkep:hover {
+  border-bottom: 70px solid salmon;
+}
+
+.pirosharomszogkivalaszt {
+  border-bottom: 70px solid salmon;
+}
+
+.pirosharomszogelfogyott {
+  border-bottom: 70px solid #FFF8E5;
+}
+
+.piroskorkep {
+  width: 70px;
+  height: 70px;
+  background: #dc3545;
+  border-radius: 50%;
+}
+
+.piroskorkep:hover {
+  background-color: salmon;
+}
+
+.piroskorkivalaszt {
+  background-color: salmon;
+}
+
+.piroskorelfogyott {
+  background-color: #FFF8E5;
+}
+
+.pirosxkep {
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+
+.pirosxkep:after {
+  content: '';
+  height: 70px;
+  border-left: 2px solid #dc3545;
+  border-width: 10px;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 28px;
+}
+
+.pirosxkep:before {
+  content: '';
+  height: 70px;
+  border-left: 2px solid #dc3545;
+  border-width: 10px;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 28px;
+}
+
+.pirosxkep:hover {
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+.pirosxkep:hover::after {
+  border-left: 2px solid salmon;
+  border-width: 10px;
+}
+.pirosxkep:hover::before {
+  border-left: 2px solid salmon;
+  border-width: 10px;
+}
+
+.pirosxkivalaszt {
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+.pirosxkivalaszt:after {
+  border-left: 2px solid salmon;
+  border-width: 10px;
+}
+.pirosxkivalaszt:before {
+  border-left: 2px solid salmon;
+  border-width: 10px;
+}
+
+.pirosxelfogyott {
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+.pirosxelfogyott:after {
+  border-left: 2px solid #FFF8E5;
+  border-width: 10px;
+}
+.pirosxelfogyott:before {
+  border-left: 2px solid #FFF8E5;
+  border-width: 10px;
+}
+
+.zoldnegyzetkep {
+  width: 70px;
+  height: 70px;
+  background-color: #198754;
+}
+
+.zoldnegyzetkep:hover {
+  background-color: mediumaquamarine;
+}
+
+.zoldnegyzetkivalaszt {
+  background-color: mediumaquamarine;
+}
+
+.zoldnegyzetelfogyott {
+  background-color: #FFF8E5;
+}
+
+.zoldharomszogkep {
+  width: 0;
+	height: 0;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	border-bottom: 70px solid #198754;
+}
+
+.zoldharomszogkep:hover {
+  border-bottom: 70px solid mediumaquamarine;
+}
+
+.zoldharomszogkivalaszt {
+  border-bottom: 70px solid mediumaquamarine;
+}
+
+.zoldharomszogelfogyott {
+  border-bottom: 70px solid #FFF8E5;
+}
+
+.zoldkorkep {
+  width: 70px;
+  height: 70px;
+  background: #198754;
+  border-radius: 50%;
+}
+
+.zoldkorkep:hover {
+  background-color: mediumaquamarine;
+}
+
+.zoldkorkivalaszt {
+  background-color: mediumaquamarine;
+}
+
+.zoldkorelfogyott {
+  background-color: #FFF8E5;
+}
+
+.zoldxkep {
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+
+.zoldxkep:after {
+  content: '';
+  height: 70px;
+  border-left: 2px solid #198754;
+  border-width: 10px;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 28px;
+}
+
+.zoldxkep:before {
+  content: '';
+  height: 70px;
+  border-left: 2px solid #198754;
+  border-width: 10px;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 28px;
+}
+
+.zoldxkep:hover::after {
+  border-left: 2px solid mediumaquamarine;
+  border-width: 10px;
+}
+
+.zoldxkep:hover::before {
+  border-left: 2px solid mediumaquamarine;
+  border-width: 10px;
+}
+
+.zoldxkivalaszt:after {
+  border-left: 2px solid mediumaquamarine;
+  border-width: 10px;
+}
+
+.zoldxkivalaszt:before {
+  border-left: 2px solid mediumaquamarine;
+  border-width: 10px;
+}
+
+.zoldxelfogyott:after {
+  border-left: 2px solid #FFF8E5;
+  border-width: 10px;
+}
+
+.zoldxelfogyott:before {
+  border-left: 2px solid #FFF8E5;
+  border-width: 10px;
+}
+
+.pirosnegyzetszam,.pirosharomszogszam,.piroskorszam,.pirosxszam,.zoldnegyzetszam,.zoldharomszogszam,.zoldkorszam,.zoldxszam {
+  width: 25px;
+  height: 25px;
+  background: #ffc107;
+  border-radius: 50%;
+  margin-top: -1rem;
+  font-weight: bold;
+}
+
+.statisztika, .statisztika2{
+  margin-top: 2rem;
+}
+
+.mutat {
+  display: none;
+}
+
+.noHover {
+  pointer-events: none;
+}
+
+.noHover2 {
+  pointer-events: none;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+
+@media screen and (max-width: 992px) {
+  .jobboldal {
+    margin-top: 2rem;
+  }
+}
+
