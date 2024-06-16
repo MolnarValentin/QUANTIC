@@ -1,5 +1,5 @@
-<Hallgató neve> Molnár Valentin
-<Neptun kódja> RG20V0
+Molnár Valentin
+RG20V0
 Webprogramozás - számonkérés
 Ezt a megoldást a fent írt hallgató küldte be és készítette a Webprogramozás kurzus számonkéréséhez.
 Kijelentem, hogy ez a megoldás a saját munkám. Nem másoltam vagy használtam harmadik féltől 
@@ -34,9 +34,3 @@ Az alap feladatok (15 pont)
 [ ] **1 hét késés (-3 pont)**
 [ ] **2 hét késés (-6 pont)**
 [ ] **2 hétnél több késés (nincs elfogadva a beadandó, nincs jegy)**
-
-Plusz feladatok (plusz 5 pont)
-
-[ ] Mentés: A játék félbehagyható, és elmentődik a böngésző lokális tárolórétegébe. (1 pont) 
-[ ] Mentés: A játék a félbehagyott játékok listájában megjelenik a keződőképernyőn, és a kezdőoldalról újra betölthető. (2 pont)
-[ ] Időlimit: a kezdőkérpernyőn beállítható az időzítő értéke, és a játékosok csak a megadott ideig tudnak lépni. Az időzítő változása meg van jelenítve a játékosoknak is, és ha az letelik, az adott játékos veszít. (2 pont)
